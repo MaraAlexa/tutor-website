@@ -2,12 +2,12 @@
   --ink: #1f2a37;
   --muted: #4b5563;
   --bg: #ffffff;
-  --brand: #1d4ed8;
-  --brand-dark: #1e3a8a;
-  --b1: #eef6ff;
-  --b2: #f5f0ff;
+  --brand: #6d28d9;
+  --brand-dark: #4c1d95;
+  --b1: #f4f0ff;
+  --b2: #e9f6f5;
   --b3: #fff6e8;
-  --b4: #eefaf3;
+  --b4: #fdeff6;
   --radius: 14px;
 }
 
@@ -48,7 +48,7 @@ a { color: var(--brand); }
   border-bottom: 1px solid #e5e7eb;
 }
 .bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1.5rem; padding-top: .6rem; padding-bottom: .6rem; }
-.brand { font-weight: 800; font-size: 1.2rem; color: var(--brand-dark); text-decoration: none; }
+.brand { display: inline-flex; align-items: center; gap: .6rem; font-weight: 800; font-size: 1.2rem; color: var(--brand-dark); text-decoration: none; }
 nav { display: flex; flex-wrap: wrap; align-items: center; gap: .25rem 1.1rem; }
 nav a { text-decoration: none; color: var(--ink); font-weight: 600; font-size: 1rem; }
 nav a:hover { color: var(--brand); }
@@ -70,7 +70,7 @@ nav a.btn { color: #fff; }
 /* Hero */
 .hero {
   padding: 4.5rem 0 4rem;
-  background: linear-gradient(135deg, #e0ecff 0%, #f3e8ff 55%, #ffeccf 100%);
+  background: linear-gradient(135deg, #ebe3ff 0%, #ffe6f1 55%, #ffeccf 100%);
 }
 .lead { font-size: 1.3rem; max-width: 40rem; color: var(--muted); }
 .hero .btn { margin: .4rem .6rem .4rem 0; }
@@ -140,3 +140,5 @@ form .btn { justify-self: start; }
 .quote footer { font-weight: 700; margin-top: .6rem; }
 section[hidden] { display: none; }
 .hp { position: absolute; left: -9999px; }
+
+.brand svg { width: 2.4rem; height: 2.4rem; flex: none; }
