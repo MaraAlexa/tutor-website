@@ -17,6 +17,7 @@
         <a href="#seniors">Computer Skills</a>
         <a href="#ai">AI Skills</a>
         <a href="#kids">Coding for Kids</a>
+        <a href="#pricing">Pricing</a>
         <a href="#about">About</a>
         <a class="btn small" href="#contact">Book a lesson</a>
       </nav>
@@ -158,6 +159,41 @@
       </div>
     </section>
 
+    <section id="pricing" class="wrap">
+      <h2>Pricing</h2>
+      <p class="sub">Simple, fair rates. Your first intro chat is free.</p>
+      <div class="cards">
+        <div class="card c1 price">
+          <h3>Basic Computer Skills</h3>
+          <p class="amount">[$__] <span>per lesson</span></p>
+          <p>Seniors, one-on-one, at your pace.</p>
+        </div>
+        <div class="card c2 price">
+          <h3>AI Skills</h3>
+          <p class="amount">[$__] <span>per lesson</span></p>
+          <p>Beginner or advanced, tailored to your goals.</p>
+        </div>
+        <div class="card c3 price">
+          <h3>Coding for Kids</h3>
+          <p class="amount">[$__] <span>per lesson</span></p>
+          <p>Scratch, Roblox Studio or Minecraft Education.</p>
+        </div>
+      </div>
+      <p class="sub">[Add details here: lesson length, discounts for lesson packages, how payment works.]</p>
+    </section>
+
+    <!-- Testimonials: remove the "hidden" attribute once you have real quotes
+         (with permission), and replace the text below. -->
+    <section id="testimonials" class="band b1" hidden>
+      <div class="wrap">
+        <h2>What students and parents say</h2>
+        <div class="cards">
+          <blockquote class="card quote"><p>“Real quote goes here.”</p><footer>Name, student or parent</footer></blockquote>
+          <blockquote class="card quote"><p>“Real quote goes here.”</p><footer>Name, student or parent</footer></blockquote>
+        </div>
+      </div>
+    </section>
+
     <section id="about" class="wrap narrow">
       <h2>About me</h2>
       <p>Hi, I'm a teacher who loves helping people feel at home with technology. Whether you're a grandparent learning video calls, an adult curious about AI, or a kid building a first game, my goal is the same: make it clear, make it fun, and make sure you leave each lesson able to do something new.</p>
@@ -168,7 +204,7 @@
       <div class="wrap narrow">
         <h2>Let's get started</h2>
         <p>Tell me a bit about what you'd like to learn and I'll get back to you to arrange a free intro chat.</p>
-        <form id="contact-form" novalidate>
+        <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
           <label>Your name
             <input name="name" required autocomplete="name">
           </label>
@@ -186,6 +222,7 @@
           <label>Message
             <textarea name="message" rows="4"></textarea>
           </label>
+          <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
           <button class="btn" type="submit">Send message</button>
           <p id="form-note" role="status"></p>
         </form>

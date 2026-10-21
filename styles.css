@@ -130,3 +130,13 @@ form .btn { justify-self: start; }
   html { scroll-behavior: auto; }
   .card { transition: none; }
 }
+
+/* Pricing & testimonials */
+.sub { color: var(--muted); }
+.price .amount { font-size: 2rem; font-weight: 800; color: var(--brand-dark); margin: .2rem 0 .6rem; }
+.price .amount span { font-size: 1rem; font-weight: 600; color: var(--muted); }
+.card.quote { background: #fff; margin: 0; }
+.card.quote:hover { transform: none; border-color: transparent; }
+.quote footer { font-weight: 700; margin-top: .6rem; }
+section[hidden] { display: none; }
+.hp { position: absolute; left: -9999px; }
